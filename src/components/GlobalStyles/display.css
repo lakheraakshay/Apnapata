@@ -1,0 +1,26 @@
+.dflex{
+    display: flex;
+
+}
+.dcol{
+    display: flex;
+    flex-direction: column;
+}
+.justbetween{
+    justify-content: space-between;
+}
+.justaround{
+    justify-content: space-around0;
+}
+.justeven{
+    justify-content: space-evenly;
+}
+.aligncenter{
+    align-items: center;
+}
+.textcenter{
+    text-align: center;
+}
+.mauto{
+    margin: auto;
+}

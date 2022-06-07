@@ -77,14 +77,15 @@ export default function Buy() {
   React.useEffect(() => {
     const allParams = location.search.substring(1).split("&");
     const params = {};
-    alert("home buy");
+    // alert("home buy");
     allParams.forEach((param) => {
       const [key, value] = param.split("=");
       params[key] = value;
     });
 
     if (params.hasOwnProperty("type")) {
-      alert("if")(() => {
+      // alert("if")
+      (() => {
         api
           .get(`/property/all?propertyType=${params.type}`)
           .then((res) => {

@@ -252,7 +252,7 @@ export default function Home() {
         client
           .get(`/home?city=${cityId}`)
           .then((response) => {
-            alert("we are here");
+            // alert("we are here");
             console.log(response, "<<<<<");
 
             setHomeData(response.data.data);
